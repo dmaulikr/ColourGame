@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    // GitHub Test!
+    
     override func viewDidLoad() {
         reds = [redDialogue0, redDialogue1, redDialogue2, redDialogue3, redDialogue4, redDialogue5, redDialogue6]
         greens = [greenDialogue0, greenDialogue1, greenDialogue2, greenDialogue3, greenDialogue4, greenDialogue5, greenDialogue6]
