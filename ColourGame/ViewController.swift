@@ -32,6 +32,8 @@ class ViewController: UIViewController {
     
     // hi andy
     
+    //change
+    
     var redValueL: CGFloat = 0
     var greenValueL: CGFloat = 0
     var blueValueL: CGFloat = 0
