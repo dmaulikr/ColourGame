@@ -9,8 +9,6 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    // GitHub Test!
     
     override func viewDidLoad() {
         reds = [redDialogue0, redDialogue1, redDialogue2, redDialogue3, redDialogue4, redDialogue5, redDialogue6]
@@ -36,9 +34,9 @@ class ViewController: UIViewController {
     var greenValueL: CGFloat = 0
     var blueValueL: CGFloat = 0
     
-    var redAction = 0
-    var greenAction = 0
-    var blueAction = 0
+    var redAction: Int = 0
+    var greenAction: Int = 0
+    var blueAction: Int = 0
     
     let blueDialogue0 = "Perfect amount of Blue!"
     let blueDialogue1 = "Maybe a tiny bit more Blue."
