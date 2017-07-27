@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import QuartzCore
 
 class ViewController: UIViewController {
     
@@ -142,6 +143,13 @@ class ViewController: UIViewController {
         colourSquare.backgroundColor = UIColor(red: CGFloat(redValueL), green: CGFloat(greenValueL), blue: CGFloat(blueValueL), alpha: 1)
         
         clicks = 0
+        
+        let transition = CATransition()
+        transition.type = kCATransitionFade
+        transition.duration = 2
+        transition.timingFunction = CAMediaTimingFunction(name:
+                                                kCAMediaTimingFunctionEaseOut)
+        view.layer.add(transition, forKey: nil)
     }
     
     func checkEquivalency() {
